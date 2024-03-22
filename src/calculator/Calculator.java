@@ -27,18 +27,33 @@ public class Calculator {
               
                     break;
                 case 2:
-                    
+                    System.out.println("Ingrese el primer numero: ");
+                    float res1 = sc.nextFloat();
+                    System.out.println("Ingrese el segundo numero ");
+                    float res2 = sc.nextFloat();
+                    System.out.println("La suma es: " + (res1 - res2));
                     
                     break;
                 case 3:
-                    
-                    
-                    
+                    System.out.println("Ingrese el primer numero: ");
+                    float mul1 = sc.nextFloat();
+                    System.out.println("Ingrese el segundo numero ");
+                    float mul2 = sc.nextFloat();
+                    System.out.println("La suma es: " + (mul1 * mul2));
                     break;
                 case 4:
-                        
-                       
-                    
+                    System.out.println("Ingrese el primer numero: ");
+                    float div1 = sc.nextFloat();
+                    System.out.println("Ingrese el segundo numero ");
+                    float div2 = sc.nextFloat();
+                    if (div2 == 0)
+                    {
+                        System.out.println("No se puede divir entre 0");
+                    }
+                    else 
+                    {
+                        System.out.println("La suma es: " + (div1 / div2));
+                    }
                     break;  
                 default:
                     break;
